@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+  font-family: 'Poppins', serif;
+}
+
+
+/* NAVIGATION BAR */
+
+.navbar{
+  background: transparent;
+  backdrop-filter: blur(10px);
+}
+
+.logo-text{
+  font-size: 15px;
+}
+
+.titleFooter{
+  margin: 0 auto;
+}
+.navbar-nav .nav-item {
+  padding: 0 20px;
+}
+
+.dropdown-menu .dropdown-item{
+  font-size: 13px;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.dropdown-menu .bi {
+  padding-right: 12px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  font-size: 10px;
+  border: none;
+  color: snow;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-weight: 1000;
+} 
+
+@media (max-width: 768px){
+  .login{
+    display: block;
+  }
+
+  #bookBtn1, #bookBtn2{
+    margin-top: 5px;
+  }
+
+  .navbar-nav #signupBtn {
+    
+  }
+}
+
+/* LOGIN MODAL */
+
+.form-control, #togglePassword, #togglePassword1, #togglePassword2   {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  border-color: rgb(231, 220, 220);
+}
+
+#password {
+  margin-top: 1rem;
+}
+
+.form-control:focus, .btn-close:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #ced4da;
+}
+
+.form-control:placeholder-shown {
+  opacity: .65;
+}
+
+#togglePassword:hover, #togglePassword1:hover, #togglePassword2:hover  {
+  background-color: #ffffff;
+  color: black;
+}
+
+#toggleIcon{
+  color: black;
+}
+
+#forgot a {
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 0;
+  padding-top: 0;
+  margin-left: 12.5px;
+}
+
+#submit {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+#noAcc {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#noAcc a {
+  text-decoration: none;
+}
+
+
+/* ABOUT US */
+
+.aboutUs {
+  margin: 3rem auto;
+  padding: 2rem;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  background-color: grey;
+}
+
+.aboutUs h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 2rem;
+}
+
+.aboutUs p {
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+
+/* MISSION  AND WHO WE ARE*/
+
+.aboutUs1, .aboutUs2 {
+  margin-bottom: 1rem;
+}
+
+.about1 img {
+  width: 100%;
+  height: 30rem;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.about2 {
+  height: 30rem;
+  text-align: center;
+}
+
+.about2 h1 {
+  margin-top: 4rem;
+}
+
+.about2 p {
+  padding-top: 2rem;
+}
+
+@media (min-width: 425px){
+  .about2 {
+    height: 20rem;
+  }
+
+  .about2 h1 {
+    padding-top: 2rem;
+  }
+
+}
+
+@media (max-width: 425px){
+  
+  .about3 {
+    height: 20rem;
+  }
+
+  .about3 h1 {
+    padding-top: 2rem;
+  }  
+}
+
+
+/* WHAT WE DO AND VISION */
+
+.about4 img {
+  width: 100%;
+  height: 30rem;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.about3 {
+  height: 30rem;
+  text-align: center;
+}
+
+.about3 h1 {
+  margin-top: 4rem;
+}
+
+.about3 p {
+  padding-top: 2rem;
+}
+
+/* OUR STORY */
+
+.aboutUs3 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.aboutUs3 .col {
+  padding: 2rem;
+}
+
+.aboutUs3 h1 {
+  font-weight: bolder;
+}
+
+@media (min-width: 425px){
+  .about3 {
+    height: 20rem;
+  }
+
+  .about3 h1 {
+    padding-top: 2rem;
+  }
+
+}
+
+/* MEET THE TEAM */
+
+.aboutUs6 {
+  margin-bottom: 3rem;
+}
+
+.meet {
+  margin-bottom: 0;
+}
+
+.teams .section-header {
+  text-align: center;
+}
+
+.teams {
+  padding: 10px 0;
+  margin-bottom: 3rem;
+}
+
+.serv .icon img {
+  width: 120px;
+  height: 130px;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+.teams h3, .teams p {
+  cursor: default;
+}
+
+.teams .team-item {
+  padding: 40px;
+  background: #fff;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.teams .team-item h3 {
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  padding-bottom: 8px;
+  font-size: 22px;
+  position: relative;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.teams .team-item p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.team p {
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px){
+  .aboutUs h1 {
+    font-size: 3rem;
+  }
+}
+
+/* OUR VALUES */
+
+.values-header {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.teams .team-item{
+  cursor: pointer;
+}
+
+.teams .icon .bi {
+  font-size: 4rem;
+}
+
+.team-item:hover .icons {
+  animation: bounce infinite;
+  animation-duration: 2s;
+  color: #2EBFD3;
+}
+
+#teams .container{
+  margin-bottom: 3rem;
+}
+
+/* CALL TO ACTION */
+
+.call {
+  text-align: center;
+}
+
+.call .row {
+  padding: 3rem;
+}
+
+.call button {
+  margin-top: 1.5rem;
+}
+
