@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>,
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>FORM VALIDATION</title>
+    <link rel="stylesheet" href="style/signupstyle.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <script src="https://kit.fontawesome.com/2bbac3a66c.js" crossorigin="anonymous" ></script>
+<style>
+    
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("images/nature.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+</style>
+</head>
+<body onbeforeunload="">
+    <form  id="create-account-form" action="client.html" method="GET">
+        <form action="https://formsubmit.co/drurepair.center@email.com" method="POST">
+
+
+
+        
+        <div class="title">
+            <h2>Create Account</h2>
+        </div>
+        <!-- NAME -->
+        <div class="input-group">
+            <label for="username" class="namerequired required">Name</label>
+            <input type="text" id="username" placeholder="Enter Full Name" name="FULL NAME">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <p>Error Message</p> <!--just a place holder-->
+        </div>
+
+      
+
+        <!-- EMAIL -->
+        <div class="input-group">
+            <label for="email" class="emailrequired required" >Email</label>
+            <input type="email" id="email" placeholder="Email" name="EMAIL">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <p>Error Message</p>
+        </div>
+
+           <!-- CONTACT  NUMBER -->
+           <div class="input-group">
+            <label for="phone" class="phonerequired required" >Contact number</label>
+            <input type="tel" id="phone" placeholder="Enter 11 digit Number" name="CONTACT NUMBER">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <p>Error Message</p>
+        </div>
+
+
+        <!-- PASSWORD -->
+        <div class="input-group">
+            <label for="password" class="passrequired required">Password</label>
+            <input type="password" id="password" placeholder="Password" name="PASSWORD">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <p>Error Message</p>
+        </div>
+        <!-- CONFIRM PASSWORD -->
+        <div class="input-group">
+            <label for="confirm-password" class="passrequired required">Confirm Password</label>
+            <input type="password" id="confirm-password" placeholder="Password" name="CONFIRM PASSWORD">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <p>Error Message</p>
+        </div>
+<div>
+    <button type="submit" onclick="alert('Profile Successfully Created')" class ="btn">Submit</button>
+</div>
+      
+    </form>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="JS/signup.js"></script>
+</body>
+</html>
+
